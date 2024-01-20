@@ -12,57 +12,155 @@ html,body{
     font-family: poppins,sans-serif;
 }
 .container{
-    display:block;
     background-color:#0d6cfd;
     height: 100vh;
-    width: 100vw;
+    width: 5000px;
     padding: 20px;
+    justify-content: center;
+    
 }
 
 .container .login{
     height: 90vh;
-    max-width: 40vw;
-    background-color: grey;
-    border: 10px solid white;
-    border-radius: 3px;
+    max-width: 35%;
+    background-color:#f5f9fc;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 4%;
     overflow: hidden;
     padding-top: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 2px solid black;
 
 }
 .container .login .form{
-    height:100%;
+    height:80%;
     width:100%;
-    background-color: blueviolet;
+    background-color: rgb(172, 172, 172);
     justify-content: center;
     padding-top: 15px;
     border-radius: 20px;
     margin-top: 5%;
+    padding:15px;
     
 }
 .container .login .form .input{
     height:65%;
     width:100%;
-    background-color: green;
+    background-color: #d4d8e0;
     border-radius: 20px;
     margin-top: 20px;
-    padding-top: 20%;
-    padding-left: 30%;
-    
+    padding: 3rem;
 }
 
+.container .login .form .input .cap{
+    height: 18%;
+    background-color: red;
+    width: 35%;
+    margin: 2% 0 3%  0;
+}
 
+input::placeholder{
+    font-size: small;
+    padding: 0 0.5rem;
+
+}
+
+.input input{
+    width: 100%;
+    border-radius: 15px;
+    height: 15%;
+}
 .login .submit {
     text-align: center;
     display: inline-block;
     padding: 14px;
-    width: 15%;
+    width:35%;
     color: #ffffff;
-    background-color:#0072be ;
-    border-radius: 8px;
+    background-color:#002686 ;
+    border-radius: 10px;
     font-family: "proxima-nova-soft", sans-serif;
     font-weight: 600;
     text-decoration: none;
+    margin-top: 30px;
 }
 .login .submit:hover{
-    background-color:#36a2eb ;
+    background-color:#0c2cfd ;
+}
+
+input{
+ background-color: rgb(255, 255, 255); 
+ width: 100px;  
+ 
+}
+
+
+body{
+    display: flex;
+}
+.right-container{
+position: absolute;
+width: 40vw;
+height: 100vh;
+background-color: rgb(255, 255, 255);
+margin-left: 60vw;
+border-radius: 20px;
+padding: 10px;
+}
+
+
+.right-head img{
+    height: 10%;
+    width: 10%;
+    margin-top:8px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+.right-head h3{
+    margin-top: 20px;
+}
+
+
+.right-head .general{
+    text-align: center;
+    display: inline-block;
+    padding: 14px;
+    width: 50%;
+    color: #ffffff;
+    background-color:#618eff ;
+    border-radius: 10px;
+    font-family: "proxima-nova-soft", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    height: 60px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.right-head{
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-container .right-box{
+    background-color: rgb(192, 192, 192);
+    width:90%;
+    height:85%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.right-container .right-box .help{
+background-color: cornflowerblue;
+height: 80%;
+border-radius: 20px;
+padding: 20px;
+
+}
+
+.right-container .right-box .help .welcome{
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius:20px;
 }
