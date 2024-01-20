@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,18 +8,24 @@
     <link rel="stylesheet" href="student.css">
 </head>
 <body>
-    <section class="container">
+    <div class="container">
         <div class="login">
-            <h4 style="text-align: center; font-size: 26px;">Registered User</h4>
-            <h5 style="text-align: center;">Lorem ipsum dolor sit amet.</h5>
+            <h4 style="text-align: left; font-size: 26px;">Registered User?</h4>
+            <h5 style="text-align: left;">If you have registered earlier, please login below.</h5>
             <div class="form">
-                <h4 style="text-align: center; font-size: 24px;">Login</h4>
+                <h4 style="text-align:left; font-size: 24px;">Login</h4>
                 
                 <div class="input">
-                    <label for="Enrolment ID" style="font-size: 20px;">Enrolment ID</label><br>
-                    <input type="text" id="Enrolment ID" placeholder="Enrolment ID /Roll Number" style="font-size: 20px;"><br>
-                    <label for="Password" style="font-size: 20px;">Password</label><br>
-                    <input type="password" id="Password" placeholder="Password" style="font-size: 20px;">
+                    <label for="Enrolment ID" style="font-size: 18px;">Enrolment / Roll Number</label><br>
+                    <input type="text" id="ac" placeholder="Enrolment ID / Roll Number" style="font-size: 20px;"><br>
+                    <label for="Password" style="font-size: 18px;">Password</label><br>
+                    <input type="password" id="Password" placeholder="Password" style="font-size: 20px;"><br>
+                    <label for="Captcha" style="font-size: 18px;">Captcha</label><br>
+                    <div class="cap">
+                        <h6>image</h6>
+                    </div>
+                    <input type="number" id="captcha" placeholder="Captcha" style="font-size: 20px;">
+
                 </div>
                 <center>
                     <a href="#" class="submit">Login</a>
@@ -26,7 +33,41 @@
             </div>
     
         </div>
-        <div class="notice"></div>
-    </section>
+    </div>
+
+    <div class="right-container">
+
+        <div class="right-head">
+            <img src="https://assam.samarth.ac.in/uploads/uims/74526fc21d8ce0fe9993bfbe999afd43fed7a14fa77078dbbdfd19c377849f671_1686311879_78726414_logo.png" alt="" class="src">
+            <h3>Assam State Higher Education Portal</h3>
+            <a href="#" class="general">General Instruction for Login</a>
+        </div>
+        <div class="right-box">
+            <h4>New User?</h4>
+            <h6 style="font-weight: 500;">If you are registering for the first time, please click the button below.</h6>
+            <button>Register</button>
+
+            <div class="help">
+                <h4>Help and Instruction</h4>
+
+                    <div class="welcome">
+                        <h5>Welcome to the Assam State Higher Education Student Portal!</h5>
+                        <h5 style="font-weight: 300;">Please follow these instructions to access the student portal, where you can find essential resources, digital ID card, programme details and more:</h5>
+                        <h5>In case you are a first-time user of the portal:</h5>
+                        <h5 style="font-weight: 300;">Click on ‘New Registration’ button above to generate your log in credentials.</h5>
+
+                        <h5>If you have registered earlier:</h5>
+                        <h5 style="font-weight: 300;">You can log in directly by entering your enrolment/roll number credentials for the portal, your password and the captcha in the login form.</h5>
+
+                        <h5>In case you have forgotten your password:</h5>
+                        <h5 style="font-weight: 300;">Please use the link below to reset your password.</h5>
+                        <button class="reset">Reset Password</button>
+                    </div>
+                    <h5>Note:</h5>
+                    <h5 style="font-weight: 300;">If you are having any difficulties in the registration/login, please contact your college administrator and verify that the entered details are correct.</h5>
+            </div>
+
+        </div>
+    </div>
 </body>
 </html>
