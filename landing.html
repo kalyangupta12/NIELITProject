@@ -1,28 +1,1156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing/Home</title>
-    <link rel="stylesheet" href="landing.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="landing.css" />
+    <link rel="stylesheet" href="landing_bootstrap.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
 
-</head>
-<body>
+  <body>
     <div class="main">
-            <div class="blue">
-                <span class="govt">
-                    <img src="https://assamadmission.samarth.ac.in/assets/3d1ccb74/site_files/assam-hed-logo.png" alt="govt" class="src">
-                    <h3>Ministry of Electronics & Information Technology<br>Government of India</h3>
-                </span>
-                <span class="nielit">
-                <h1 style="font-size: larger; text-align: center;">National Institute of Electronics and Information Technology <br> राष्ट्रीय इलेक्ट्रॉनिकी एवं सूचना प्रौद्योगिकी संस्थान
-                    <br>Admission Session 2024-2025</h1>
-                <img src="https://nielit.gov.in/sites/all/themes/berry/images/NIELIT-Logo.png" alt="" class="g20">
-            </span>
-                <a href="https://nielit.gov.in/index.php" class="btn btn-primary btn-lg" role="button" >NIELIT</a>
+      <div class="blue">
+        <!-- <span class="govt">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/1200px-Emblem_of_India.svg.png"
+            alt="govt"
+            class="src"
+          />
+          <h3>
+            Ministry of Electronics & Information Technology<br />Government of
+            India
+          </h3>
+        </span>
+        <span class="nielit">
+          <h1 style="font-size: larger; text-align: center">
+            National Institute of Electronics and Information Technology <br />
+            राष्ट्रीय इलेक्ट्रॉनिकी एवं सूचना प्रौद्योगिकी संस्थान
+            <br />Admission Session 2024-2025
+          </h1>
+          <img
+            src="https://nielit.gov.in/sites/all/themes/berry/images/NIELIT-Logo.png"
+            alt=""
+            class="g20"
+          />
+        </span>
+        <a
+          href="https://nielit.gov.in/index.php"
+          class="btn btn-primary btn-lg"
+          role="button"
+          >Nielit Gov</a
+        > -->
+        <span class="govt">
+            <img src="wall.png" alt="govt" class="src">
+            <h3>Ministry of Electronics & Information Technology<br>Government of India</h3>
+        </span>
+        <span class="nielit">
+            <h1 style="font-size: larger; text-align: center;">National Institute of Electronics and Information Technology <br> राष्ट्रीय इलेक्ट्रॉनिकी एवं सूचना प्रौद्योगिकी संस्थान
+                <br>Admission Session 2024-2025</h1>
+        </span>
+        <span class="right">
+          <a href="https://nielit.gov.in/index.php"><img src="https://nielit.gov.in/sites/all/themes/berry/images/NIELIT-Logo.png" alt="" class="g20"></a>
+        </span>
+      </div>
+      <!-- nav bar bootstrap-->
+      <nav
+        class="navbar sticky-top navbar-expand-lg"
+        style="
+          background: linear-gradient(#074e7a, rgb(60, 59, 59));
+          padding-top: 0;
+          padding-bottom: 0;
+        "
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  style="color: white"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  style="color: white"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  style="color: white"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  style="color: white"
+                >
+                  Sign Up
+                </a>
+                <ul class="dropdown-menu" id="dmenu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- <div class="marquee">
+            <marquee><span><b>NIELIT ANNOUNCEMENTS!</b></span></marquee>
+        </div> -->
+      <section class="mark" style="background-color: rgba(0, 255, 255, 0)">
+        <div
+          class="moving"
+          style="background-color: red; width: 90.5vw; border-radius: 8px"
+        >
+          <!-- <marquee behavior="" direction=""> <h2>Admissions are now closed!</h2></marquee> -->
+          <marquee behavior="" direction=""
+            ><h4 style="color: white">Admissions are now closed!</h4></marquee
+          >
+        </div>
+      </section>
+      <div class="container2">
+        <section class="left">
+          <h4 style="text-align: justify">
+            About Assam State Higher Education Admission Portal- 2023
+          </h4>
+          <br />
+          <p>
+            The Assam State Higher Education Admission Portal - 2023 is being
+            introduced for admission into all UG Programmes in Assam State
+            Universities for academic session 2023-24 under the Department of
+            Higher Education Assam. The Assam State Higher Education Admission
+            Portal will provide a common platform and equal opportunities to
+            candidates across the state, especially those from rural and other
+            remote areas and help establish better connect with the
+            Universities. A single portal will enable the Candidates to cover a
+            wide outreach and be part of the admissions process to Assam State
+            Universities.
+          </p>
+          <h4>Lorem ipsum dolor sit amet.</h4>
+          <br />
+          <p>
+            The Assam State Higher Education Admission Portal - 2023 is being
+            introduced for admission into all UG Programmes in Assam State
+            Universities for academic session 2023-24 under the Department of
+            Higher Education Assam. The Assam State Higher Education Admission
+            Portal will provide a common platform and equal opportunities to
+            candidates across the state, especially those from rural and other
+            remote areas and help establish better connect with the
+            Universities. A single portal will enable the Candidates to cover a
+            wide outreach and be part of the admissions process to Assam State
+            Universities.
+          </p>
+          <ul>
+            <h6>For More Information:</h6>
+            <li><a href="">How to Register</a></li>
+            <li><a href="">How to Login</a></li>
+            <li><a href="">Applicant User Guide</a></li>
+            <li><a href="">Applicant User Guide For Correction Window</a></li>
+          </ul>
+        </section>
+
+        <section class="right">
+          <div
+            class="col-md-6 small ps-md-8 mt-12 mt-md-0"
+            style="font-size: 14px; width: 100%"
+          >
+            <div
+              class="card"
+              style="position: sticky; top: 32px; font-size: 14px"
+            >
+              <div class="card-header py-0 px-6" style="font-size: 14px">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link active fw-bold"
+                      id="publicNotice-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#publicNotice"
+                      type="button"
+                      role="tab"
+                      aria-controls="publicNotice"
+                      aria-selected="true"
+                    >
+                      Public Notice
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link fw-bold"
+                      id="impDates-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#impDates"
+                      type="button"
+                      role="tab"
+                      aria-controls="impDates"
+                      aria-selected="false"
+                      tabindex="-1"
+                    >
+                      Important Dates
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="card-body lh-loose"
+                style="
+                  min-height: 600px;
+                  max-height: 600px;
+                  overflow-y: auto;
+                  text-align: justify;
+                  font-size: 14px;
+                "
+              >
+                <marquee
+                  class="custom"
+                  direction="up"
+                  height="600px"
+                  onmouseover="stop()"
+                  onmouseout="start()"
+                  scrollamount="5"
+                >
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                26 Sep 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a target="_blank" href="#" id="incontent">
+                                Notice for admission extension with conditions
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                26 Sep 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a target="_blank" href="#" id="incontent">
+                                Notice for Admission timeline extension (final)
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                19 Sep 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a
+                                target="_blank"
+                                href="https://samarth-ac.s3.ap-south-1.amazonaws.com/assam/admissionjan23/406e14527e51f51326fab1f6db85f7bf71134a0f6a73d2feffe2af210119f9a42/16951280042_admission_docs.pdf"
+                                id="incontent"
+                              >
+                                Notice regarding extension of admission on
+                                Samarth
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                19 Sep 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a
+                                target="_blank"
+                                href="https://samarth-ac.s3.ap-south-1.amazonaws.com/assam/admissionjan23/406e14527e51f51326fab1f6db85f7bf71134a0f6a73d2feffe2af210119f9a42/16951263222_admission_docs.pdf"
+                                id="incontent"
+                              >
+                                Notice regarding Final round of admission
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                07 Aug 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a
+                                target="_blank"
+                                href="https://samarth-ac.s3.ap-south-1.amazonaws.com/assam/admissionjan23/406e14527e51f51326fab1f6db85f7bf71134a0f6a73d2feffe2af210119f9a42/16914226082_admission_docs.pdf"
+                                id="incontent"
+                              >
+                                Govt. Model College Admission Notice
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                04 Aug 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a
+                                target="_blank"
+                                href="https://samarth-ac.s3.ap-south-1.amazonaws.com/assam/admissionjan23/406e14527e51f51326fab1f6db85f7bf71134a0f6a73d2feffe2af210119f9a42/16911585992_admission_docs.pdf"
+                                id="incontent"
+                              >
+                                Closure of Admissions under special drive and
+                                Major/Minor subject change
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                26 Jul 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a
+                                target="_blank"
+                                href="https://samarth-ac.s3.ap-south-1.amazonaws.com/assam/admissionjan23/406e14527e51f51326fab1f6db85f7bf71134a0f6a73d2feffe2af210119f9a42/16903133372_admission_docs.pdf"
+                                id="incontent"
+                              >
+                                UG Admissions Special Drive
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                21 Jul 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a
+                                target="_blank"
+                                href="https://samarth-ac.s3.ap-south-1.amazonaws.com/assam/admissionjan23/406e14527e51f51326fab1f6db85f7bf71134a0f6a73d2feffe2af210119f9a42/16899568022_admission_docs.pdf"
+                                id="incontent"
+                              >
+                                Guidelines for Spot Admissions for UG programme
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                21 Jul 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a
+                                target="_blank"
+                                href="https://samarth-ac.s3.ap-south-1.amazonaws.com/assam/admissionjan23/406e14527e51f51326fab1f6db85f7bf71134a0f6a73d2feffe2af210119f9a42/16899567532_admission_docs.pdf"
+                                id="incontent"
+                              >
+                                Notice for Applications for Spot Admissions
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                11 Jul 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a
+                                target="_blank"
+                                href="https://samarth-ac.s3.ap-south-1.amazonaws.com/assam/admissionjan23/406e14527e51f51326fab1f6db85f7bf71134a0f6a73d2feffe2af210119f9a42/16890718582_admission_docs.pdf"
+                                id="incontent"
+                              >
+                                Admission Advisory
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                11 Jul 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a
+                                target="_blank"
+                                href="https://samarth-ac.s3.ap-south-1.amazonaws.com/assam/admissionjan23/406e14527e51f51326fab1f6db85f7bf71134a0f6a73d2feffe2af210119f9a42/16890477832_admission_docs.pdf"
+                                id="incontent"
+                              >
+                                Admission Time-lines
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                28 Jun 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a
+                                target="_blank"
+                                href="https://samarth-ac.s3.ap-south-1.amazonaws.com/assam/admissionjan23/406e14527e51f51326fab1f6db85f7bf71134a0f6a73d2feffe2af210119f9a42/16879634012_admission_docs.pdf"
+                                id="incontent"
+                              >
+                                Extension of date for application to UG
+                                programmes
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                27 Jun 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a
+                                target="_blank"
+                                href="https://scdn.samarth.ac.in/assam/notice/notice-for-multiple-applications.pdf"
+                                id="incontent"
+                              >
+                                Notice for Multiple Programme Applications
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                18 Jun 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a
+                                target="_blank"
+                                href="https://samarth-ac.s3.ap-south-1.amazonaws.com/assam/admissionjan23/406e14527e51f51326fab1f6db85f7bf71134a0f6a73d2feffe2af210119f9a42/16870283432_admission_docs.pdf"
+                                id="incontent"
+                              >
+                                Notice of providing editing options for
+                                submitted applications.
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                18 Jun 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a
+                                target="_blank"
+                                href="https://samarth-ac.s3.ap-south-1.amazonaws.com/assam/admissionjan23/406e14527e51f51326fab1f6db85f7bf71134a0f6a73d2feffe2af210119f9a42/16870280522_admission_docs.pdf"
+                                id="incontent"
+                              >
+                                UG Admissions through Assam Higher Education
+                                Admission portal
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                18 Jun 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a
+                                target="_blank"
+                                href="https://samarth-ac.s3.ap-south-1.amazonaws.com/assam/admissionjan23/406e14527e51f51326fab1f6db85f7bf71134a0f6a73d2feffe2af210119f9a42/16870279972_admission_docs.pdf"
+                                id="incontent"
+                              >
+                                Student Advisory notice in connection with
+                                Admission helpdesk for UG Admissions
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-content"
+                    id="myTabContent"
+                    style="font-weight: 500; font-size: 14px"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="publicNotice"
+                      role="tabpanel"
+                      aria-labelledby="publicNotice-tab"
+                      style="font-size: 14px"
+                    >
+                      <ul class="my-6 ps-4">
+                        <li class="mb-6">
+                          <div class="row" style="font-size: 14px">
+                            <div class="col-md-2" style="font-size: 14px">
+                              <h5
+                                class="text-muted"
+                                style="
+                                  border-right: solid 2px
+                                    rgba(92, 96, 245, 0.25);
+                                "
+                              >
+                                14 Jun 2023
+                              </h5>
+                            </div>
+                            <div class="col-md-10" style="font-size: 14px">
+                              <a
+                                target="_blank"
+                                href="https://samarth-ac.s3.ap-south-1.amazonaws.com/assam/admissionjan23/689c4f40fff5a9a8ebb56bae2d0c1bda3065bb2f27a5500f47f33b614a4fc82c343/1686752284343_admission_docs.pdf"
+                                id="incontent"
+                              >
+                                Admission Notice 2023-24
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="my-8" />
+                      </ul>
+                    </div>
+                  </div>
+                </marquee>
+              </div>
             </div>
+          </div>
+        </section>
+      </div>
+      <div class="lower">
+        <div class="cardbox1">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://nielit.gov.in/sites/default/files/buttonmenu/HQ_Content_Creator/2022/11/Publications.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text"><a href="">visit</a></p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://nielit.gov.in/sites/default/files/buttonmenu/Admin_HQ/2022/07/eLearing_CCC_0.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text"><a href="">visit</a></p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://nielit.gov.in/sites/default/files/buttonmenu/admin/2019/05/annual_report_0.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a href=""><a href="">visit</a></a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardbox2">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://nielit.gov.in/sites/default/files/education-panel_2_17.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text"><a href="">visit</a></p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://nielit.gov.in/sites/default/files/buttonmenu/admin/2019/05/recognition_0.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text"><a href="">visit</a></p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://nielit.gov.in/sites/default/files/newsletter-icon_1_18.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text"><a href="">visit</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer start -->
+        <!-- <footer> -->
+        <!-- <div id="main-footer">
+
+                <h2>Explore NIELIT</h2>
+                <ul style="list-style-type: none;">
+                    <li>Act and Rules</li>
+                    <li>Delegation of Powers</li>
+                    <li>Recognition</li>
+                    <li>Opportunities</li>
+                    <li>Annual Report</li>
+                    <li>MoUs</li>
+                    <li>RTI</li>
+                    <li>Vigilance</li>
+                    <li>Grievance</li>
+                </ul>
+            </div>
+
+            <div id="main-footer">
+                <h2>Website Policies</h2>
+                <ul style="list-style-type: none;">
+                    <li>COVID Compliance</li>
+                    <li>Disclaimer</li>
+                    <li>Sitemap</li>
+                    <li>Privacy Policy</li>
+                    <li>Citizen Charter</li>
+                    <li>Website Policies</li>
+                    <li>Terms and Conditions</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+
+            <div id="main-footer">
+                <h2>Useful Links</h2>
+                <ul style="list-style-type: none;">
+                    <li>meity.gov.in</li>
+                    <li>india.gov.in</li>
+                    <li>mygov.in</li>
+                    <li>rtionline.gov.in</li>
+                    <li>esdm-skill.deity.gov.in</li>
+                    <li>pgportal.gov.in</li>
+                    <li>portal.cvc.gov.in</li>
+                    <li>email.gov.in</li>
+                    <li>Downloads</li>
+                </ul>
+            </div>
+
+            <div id="main-footer">
+                <h2>Online Services</h2>
+                <ul style="list-style-type: none;">
+                    <li>Registration</li>
+                    <li>e-Certificate</li>
+                    <li>Accreditation</li>
+                    <li>CCC/BCC Facilitation</li>
+                    <li>IEEE e-Resources</li>
+                    <li>Examination</li>
+                    <li>Placement Portal</li>
+                </ul>
+            </div>
+            <div id="main-footercontact">
+                <h2>Contact Us</h2>
+                <ul style="list-style-type: none;">
+                    <li>NIELIT Bhawan,</li>
+                    <li>Plot No. 3, PSP Pocket, Sector-8,</li>
+                    <li>Dwarka, New Delhi-110077,</li>
+                    <li>Phone:- 91-11-2530 8300</li>
+                    <li>Call Centre No.:- 011-25308303 [Mon-Sat,9:00AM-5:30PM]</li>
+                    <li>Email:-nielit.gov.in</li>
+                </ul>
+            </div>
+        </footer> footer end -->
+      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+    <!-- main -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
