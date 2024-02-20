@@ -12,6 +12,7 @@ What I have done here is that I have added a high level backend for the first pa
 - You'll need mongodb compass and postman to test out the stuff, I guess you know that already
 - Also please figure out that 'config' file which is an environment variable that stores the token separately in the server, so as to provide more security. It shouldn't be exposed anywhere when deployed. My one didn't work but the rest of the stuff works properly.
 - If you have any problems I have a working small backend where the data, schema, jwt, authentication, middleware, every logic has been written in one single file here [link](https://github.com/LegioN2004/Programs/blob/main/WebDev-stuff/Kirat-cohort-0-1/3.1-Middlewares-Global_Catches-Database-%26-Auth/mongooseIntro.js). It has everything implemented but not in the way of course selling thing in mind
+- dependencies required: `mongoose mongodb express zod jsonwebtoken`. A `npm install` should install all these dependencies or else you can copy paste and install these 5 dependencies
 
 ## Routes
 
